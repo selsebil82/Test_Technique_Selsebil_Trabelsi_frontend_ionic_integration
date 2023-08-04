@@ -1,0 +1,32 @@
+
+  <ion-button class="btn-blue btn-sm" [routerLink]="'add'">Ajouter</ion-button>
+  <ion-content #content>
+  <div class="mb-3">
+    <ion-input type="text" placeholder="Rechercher un produit" [(ngModel)]="searchQuery" (ionInput)="onSearchChange()"></ion-input>
+  </div>
+
+  <ion-grid class="table-bordered">
+    <ion-row class="header-row">
+      <ion-col size="1">#</ion-col>
+      <ion-col size="3">Nom</ion-col>
+      <ion-col size="2">Prix Unitaire</ion-col>
+      <ion-col size="2">Quantité</ion-col>
+      <ion-col class="text-center" size="4">Action</ion-col>
+    </ion-row>
+    <ion-row *ngFor="let prod of products">
+      <ion-col size="1">{{prod.id}}</ion-col>
+      <ion-col size="3">{{prod.name}}</ion-col>
+      <ion-col size="2">{{prod.price}}</ion-col>
+      <ion-col size="2">{{prod.quantity}}</ion-col>
+
+      <ion-col class="text-center" size="4">
+        <ion-button class="btn-blue btn-sm" [routerLink]="'show/' + prod.id">Afficher</ion-button>
+
+        <ion-button class="btn-red btn-sm" (click)="deleteData(prod.id)">Supprimer</ion-button>
+        <ion-note *ngIf="successMessageId === prod.id">Produit supprimé avec succès !</ion-note>
+
+        <ion-button class="btn-yellow btn-sm" [routerLink]="'update/' + prod.id">Mise à jour</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

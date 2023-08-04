@@ -1,0 +1,27 @@
+<ion-content>
+  <div *ngIf="product" class="text-center">
+    <h2>Détails du produit</h2>
+    <ion-grid>
+      <ion-row>
+        <ion-col>#</ion-col>
+        <ion-col>{{ product.id }}</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>Nom</ion-col>
+        <ion-col>{{ product.name }}</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>Prix Unitaire</ion-col>
+        <ion-col>{{ product.price }}</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>Quantité</ion-col>
+        <ion-col>{{ product.quantity }}</ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <div class="text-center">
+    <ion-button class="btn-danger btn-sm mt-4" routerLink="/">Retour</ion-button>
+  </div>
+</ion-content>

@@ -1,0 +1,38 @@
+/* Add the following CSS styles to your component's CSS file */
+
+/* Yellow button style */
+.btn-yellow {
+    --color: #fff; /* Text color */
+    --background: #ffc107; /* Background color */
+    --background-activated: #e0a800; /* Background color when activated */
+  }
+  
+  /* Red button style */
+  .btn-red {
+    --color: #fff;
+    --background: #dc3545;
+    --background-activated: #c82333;
+  }
+  
+  /* Blue button style */
+  .btn-blue {
+    --color: #fff;
+    --background: #007bff;
+    --background-activated: #0056b3;
+  }
+  /* Add the following CSS styles to your component's CSS file */
+
+
+
+/* Style the header-row to make it bold and centered */
+.header-row {
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Add some padding to the header cells */
+.header-row ion-col {
+  padding: 8px;
+}
+
+ 

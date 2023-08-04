@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Mettre à jour un produit</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form (ngSubmit)="updateProduct()">
+    <ion-item>
+      <ion-label position="floating">Nom</ion-label>
+      <ion-input aria-label="nom" type="text" name="name" [(ngModel)]="product.name"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Prix Unitaire</ion-label>
+      <ion-input aria-label="prix" type="text" name="price" [(ngModel)]="product.price"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Quantité</ion-label>
+      <ion-input aria-label="quantitee" type="text" name="quantity" [(ngModel)]="product.quantity"></ion-input>
+    </ion-item>
+
+    <div class="d-flex justify-content-between align-items-center">
+      <ion-button class="btn-dark btn-sm mt-4" type="submit">Mise à jour</ion-button>
+      <ion-button class="btn-danger btn-sm" routerLink="/">Retour</ion-button>
+    </div>
+  </form>
+</ion-content>
