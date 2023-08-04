@@ -76,7 +76,12 @@ ng serve -o
 
 <h2>Vidéo démonstratif de l'application FrontEndApp</h2>
 <h3>Version web</h3>
+
+[Screencast from 2023-08-04 15-36-30.webm](https://github.com/selsebil82/Test_Technique_Selsebil_Trabelsi_frontend_ionic_integration/assets/134981597/637a39e3-e127-4474-92c1-81f3fcfbdb3f)
+
 <h3>Version mobile</h3>
+
+[Screencast from 2023-08-04 15-43-20.webm](https://github.com/selsebil82/Test_Technique_Selsebil_Trabelsi_frontend_ionic_integration/assets/134981597/74b3332b-6b19-48c9-bcc1-bc24b298ebb3)
 
 <h2>Auteur</h2>
 
