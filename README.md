@@ -36,7 +36,20 @@ ng serve -o
 </code></pre>
 
 <p>L'application devrait s'ouvrir automatiquement dans votre navigateur par défaut à l'adresse <code>http://localhost:4200/</code>. Si ce n'est pas le cas, vous pouvez accéder à l'application en ouvrant cette URL dans votre navigateur.</p>
+
 <h2>Intégration de ionic dans notre application angular</h2>
+<h4>Installation de ionic cli</h4>
+![Screenshot from 2023-08-03 10-31-25](https://github.com/selsebil82/Test_Technique_Selsebil_Trabelsi_frontend_ionic_integration/assets/134981597/95dfbd32-fe21-4a93-a9c0-28155f1dfa56)
+<h4>Installation du package ionic dans notre projet Angular</h4>
+![Screenshot from 2023-08-03 17-41-48](https://github.com/selsebil82/Test_Technique_Selsebil_Trabelsi_frontend_ionic_integration/assets/134981597/1002f469-dd6c-42ee-b71e-34c4fc226a6f)
+<h4>Ajout du package ionic dans notre application Angular</h4>
+![Screenshot from 2023-08-03 17-49-16](https://github.com/selsebil82/Test_Technique_Selsebil_Trabelsi_frontend_ionic_integration/assets/134981597/9e0718ec-4823-4d49-91c0-859d5c2a563a)
+<h4>Changement de l'output path dans angular.json file de dist/.. vers www</h4>
+![Screenshot from 2023-08-04 15-16-55](https://github.com/selsebil82/Test_Technique_Selsebil_Trabelsi_frontend_ionic_integration/assets/134981597/c5ddccae-2445-4c73-82dc-adc0801b4092)
+<h4>Ajout des balises ionic à notre application Angular</h4>
+![Screenshot from 2023-08-04 15-17-30](https://github.com/selsebil82/Test_Technique_Selsebil_Trabelsi_frontend_ionic_integration/assets/134981597/b59486bc-cd2d-490a-b8ac-08e6017d6f55)
+
+
 
 <h2>Utilisation de l'application</h2>
 
@@ -52,6 +65,8 @@ ng serve -o
 </ul>
 
 <h2>Vidéo démonstratif de l'application FrontEndApp</h2>
+<h3>Version web</h3>
+<h3>Version mobile</h3>
 
 <h2>Auteur</h2>
 
