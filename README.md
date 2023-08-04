@@ -1,7 +1,8 @@
 
 <h1>Test Technique Selsebil Trabelsi - Frontend - Angular avec Ionic</h1>
 
-<p>Ce dépôt contient la partie frontend du projet Test Technique Selsebil Trabelsi, l'autre dépôt contient la partie backend du projet Test Technique Selsebil Trabelsi. Il s'agit d'une application développée avec le framework Angular et intégration d'Ionic, permettant de gérer les produits en interagissant avec l'API backend.</p><br>
+<p>Ce dépôt contient la partie frontend du projet Test Technique Selsebil Trabelsi, l'autre dépôt contient la partie backend du projet Test Technique Selsebil Trabelsi. 
+  Ce projet s'agit d'une application développée avec le framework Angular et intégration d'Ionic, permettant de gérer les produits en interagissant avec l'API backend.</p><br>
 
 <p>N'hésitez pas à ouvrir une <a href="https://github.com/selsebil82/Test_Technique_Selsebil_Trabelsi_backend">Parite BackEnd</a> pour consulter le projet backend en laravel. Bonne utilisation !</p><br>
 
