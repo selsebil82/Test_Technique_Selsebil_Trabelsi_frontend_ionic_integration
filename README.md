@@ -86,4 +86,4 @@ ng serve -o
 <h2>Auteur</h2>
 
 <p>Ce projet a été réalisé par Selsebil Trabelsi.</p>
-<p>N'hésitez pas à ouvrir une <a href="https://github.com/selsebil82/Test_Technique_Selsebil_Trabelsi_frontend/issues">issue</a> si vous rencontrez des problèmes ou si vous avez des suggestions d'amélioration. Bonne utilisation !</p>
+<p>N'hésitez pas à ouvrir une <a href="https://github.com/selsebil82/Test_Technique_Selsebil_Trabelsi_frontend_ionic_integration/issues">issue</a> si vous rencontrez des problèmes ou si vous avez des suggestions d'amélioration. Bonne utilisation !</p>
