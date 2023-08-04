@@ -12,7 +12,7 @@
 </ul>
 
 <pre><code class="language-bash">
-git clone https://github.com/selsebil82/Test_Technique_Selsebil_Trabelsi_frontend.git
+git clone https://github.com/selsebil82/Test_Technique_Selsebil_Trabelsi_frontend_ionic_integration.git
 </code></pre>
 
 <ul>
@@ -20,7 +20,7 @@ git clone https://github.com/selsebil82/Test_Technique_Selsebil_Trabelsi_fronten
 </ul>
 
 <pre><code class="language-bash">
-cd Test_Technique_Selsebil_Trabelsi_frontend
+cd Test_Technique_Selsebil_Trabelsi_frontend_ionic_integration
 </code></pre>
 
 <h2>Configuration de l'API Backend</h2>
@@ -36,6 +36,7 @@ ng serve -o
 </code></pre>
 
 <p>L'application devrait s'ouvrir automatiquement dans votre navigateur par défaut à l'adresse <code>http://localhost:4200/</code>. Si ce n'est pas le cas, vous pouvez accéder à l'application en ouvrant cette URL dans votre navigateur.</p>
+<h2>Intégration de ionic dans notre application angular</h2>
 
 <h2>Utilisation de l'application</h2>
 
@@ -55,4 +56,4 @@ ng serve -o
 <h2>Auteur</h2>
 
 <p>Ce projet a été réalisé par Selsebil Trabelsi.</p>
-<p>N'hésitez pas à ouvrir une <a href="https://github.co
+<p>N'hésitez pas à ouvrir une <a href="https://github.com/selsebil82/Test_Technique_Selsebil_Trabelsi_frontend/issues">issue</a> si vous rencontrez des problèmes ou si vous avez des suggestions d'amélioration. Bonne utilisation !</p>
