@@ -55,7 +55,7 @@ ng serve -o
 
 ![Screenshot from 2023-08-04 15-16-55](https://github.com/selsebil82/Test_Technique_Selsebil_Trabelsi_frontend_ionic_integration/assets/134981597/c5ddccae-2445-4c73-82dc-adc0801b4092)
 
-<h4>Ajout des balises ionic à notre application Angular</h4>
+<h4>Ajout des balises ionic à notre application Angular(exemple : app.component.html)</h4>
 
 ![Screenshot from 2023-08-04 15-17-30](https://github.com/selsebil82/Test_Technique_Selsebil_Trabelsi_frontend_ionic_integration/assets/134981597/b59486bc-cd2d-490a-b8ac-08e6017d6f55)
 
